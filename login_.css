@@ -1,0 +1,53 @@
+body{
+    margin:0;
+}
+.entire-header
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    background-color: black;
+}
+.logo{
+    display: inline-block;
+    height:auto;
+    
+}
+.login-link{
+    display: inline-block;
+    height: auto;
+    top:0;
+    right:0;
+    position: fixed;
+    
+}
+header{
+    width: 100%;
+}
+.photo{
+    text-align: center;
+    display:inline;
+    left:40%;
+    padding-top: 20px;
+    
+    position: fixed;
+    
+}
+h3{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+.login-link:hover{
+    border:1px solid white;
+}
+.logo:hover{
+    border:1px solid white;
+}
+h3{
+    display:inline-block;
+    height:auto;
+}
+a{
+    text-decoration: none;
+    height: auto;
+}
