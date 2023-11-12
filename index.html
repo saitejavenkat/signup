@@ -7,25 +7,82 @@
         <link href="login_.css" rel="stylesheet">
     </head>
     <body>
-        <div class="entire-header">
-            <header>
+        <header>
+            <div class="entire-header">
                 <a href="#">
                     <div class="logo">
-                        <h3>Goon</h3>
+                        <h3>Home</h3>
                     </div>
                 </a>
                 <a href="#">
-                <div class="photo">
-                    <img src="logobr.png" width="80px" height="auto">
-                </div>
+                    <div class="photo">
+                        <img src="logobr.png" alt="website-logo" width="100px" height="30px">
+                    </div>
                 </a>
                 <a href="">
-                    <div class="login-link">
+                    <div class="login-link" >
                         <h3>Login</h3>
                     </div>
                 </a>
-            </header>
-        </div>
+            </div>
+        </header>
+        <main>
+            <div class="entire-main">
+                <div class="advertisment">
+                    <iframe width="360px" height="300px" src="https://www.youtube.com/embed/hBF2_unTVWg?si=wfIDNKyJmNtnb7TY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="signup-box">
+                    <div class="details-inner">
+                        <form id="information">
+                            <label for="first" class="n0" spellcheck="true">First Name:</label>
+                            <span class="arr1">
+                                <input type="text" id="first" autocomplete="given-name" placeholder="Enter first name..">
+                                <br>
+                            </span>
+                            <label for="last" class="n1">Last Name:</label>
+                            <span class="arr2">
+                                <input type="text" id="last" autocomplete="additional-name" placeholder="Enter last name..">
+                                <br>
+                            </span>
+                            <label for="username" class="us">Username:</label>
+                            <span class="arr3">
+                                <input type="text" id="username" autocomplete="off" placeholder="Create username..">
+                                <br>
+                            </span>
+                            <label for="pass" class="p0">Password:</label>
+                            <span class="arr4">
+                                <input type="password" id="pass" autocomplete="off" placeholder="Enter password..">
+                                <br>
+                            </span>
+                            <label for="pass1" class="p1">Password:</label>
+                            <span class="arr5">
+                                <input type="password" id="pass1" autocomplete="off" placeholder="Re-enter password..">
+                                <br>
+                            </span>
+                            <label for="coll" class="cl">College:</label>
+                            <span class="arr6">
+                                <input type="text" id="coll" autocomplete="organization" placeholder="College name..">
+                                <br>
+                            </span>
+                            <label for="level" class="pr">Profession:</label>
+                            <span class="arr7">
+                                <select id="level" class="opt">
+                                    <option selected>-Select-</option>
+                                    <option>Student</option>
+                                    <option>Employee</option>
+                                    <option id="admins">Admin</option>
+                                </select>
+                            </span>
+                            <br>
+                            <button type="button" onclick="hi()">
+                                Create Account
+                            </button>
+                        </form>
+                    </div>
+                </div>
+               
+            </div>
+        </main>
     </body>
     <footer>
     </footer>
