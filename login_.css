@@ -6,7 +6,8 @@ body{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    background-color: orange;
+    justify-content: space-between;
+    background-color: rgb(240, 140, 59);
 }
 .logo{
     display: inline-block;
@@ -16,22 +17,16 @@ body{
 .login-link{
     display: inline-block;
     height: auto;
-    top:0;
-    right:0;
-    position: fixed;
     
 }
 .photo{
-    text-align: center;
-    display:inline;
-    left:40%;
-    padding-top: 20px;
-    
-    position: fixed;
-    
+    padding-bottom: 10px;
+}
+img{
+    margin-top:15px
 }
 h3{
-    color:white;
+    color:rgb(10, 9, 9);
     font-family:'Times New Roman', Times, serif;
 }
 .login-link:hover{
@@ -40,6 +35,7 @@ h3{
 .logo:hover{
     border:1px solid white;
 }
+
 h3{
     display:inline-block;
     height:auto;
@@ -47,4 +43,88 @@ h3{
 a{
     text-decoration: none;
     height: auto;
+}
+.entire-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.details-inner{
+    margin-top: 50px;
+    margin-left: 5px;
+    color:rgb(255, 81, 0);
+}
+#first,#pass,#pass1,#username,#last,#coll,.opt
+{
+    outline: none;
+    border:2px solid rgb(14, 13, 13);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius:20px;
+    padding-right: 30px;
+}
+.n0,.n1,.p0,.p1,.cl,.pr,.us{
+    font-size: larger;
+    font-weight: bold;
+}
+.arr1{
+    margin-left:20px;
+}
+.arr2{
+    margin-left:22px;
+}
+.arr3{
+    margin-left:26px;
+}
+.arr4{
+    margin-left:28px;
+}
+.arr5{
+    margin-left:28px;
+}
+.arr6{
+    margin-left:40px;
+}
+.arr7{
+    margin-left:23px;
+}
+.opt{
+    padding-left:60px;
+    padding-right:60px;
+}
+
+.pr{
+    margin-left: 2px;
+}
+
+a{
+    color:rgb(72, 156, 235);
+}
+button{
+    padding:10px;
+    background-color: rgb(67, 116, 182);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+button:hover{
+    background-color: rgb(214, 9, 146);
+    transition: 0.5s;
+}
+option{
+    background-color: rgb(240, 247, 240);
+}
+.advertisment{
+   border:1px solid red;
+   display: inline-block;
+   height: 300px;
+   width: 360px;
+}
+main{
+    margin-top:10px;
 }
