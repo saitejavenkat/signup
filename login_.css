@@ -8,16 +8,24 @@ body{
     flex-wrap:wrap;
     justify-content: space-between;
     background-color: rgb(240, 140, 59);
+
 }
 .logo{
     display: inline-block;
+    margin: auto 5px;
     height:auto;
     
+}
+.login-link:hover,.logo:hover{
+    background-color: rgb(240, 140, 59);
+    opacity: 0.7;
+    margin: 0px;
+    transition: 1s;
 }
 .login-link{
     display: inline-block;
     height: auto;
-    
+    margin: auto 5px;
 }
 .photo{
     padding-bottom: 10px;
@@ -29,13 +37,6 @@ h3{
     color:rgb(10, 9, 9);
     font-family:'Times New Roman', Times, serif;
 }
-.login-link:hover{
-    border:1px solid white;
-}
-.logo:hover{
-    border:1px solid white;
-}
-
 h3{
     display:inline-block;
     height:auto;
@@ -50,16 +51,17 @@ a{
     flex-wrap: wrap;
     justify-content:space-around;
     align-items: center;
+    margin-bottom: 50px;
 }
 .details-inner{
     margin-top: 50px;
     margin-left: 5px;
-    color:rgb(255, 81, 0);
+    color:orange;
 }
 #first,#pass,#pass1,#username,#last,#coll,.opt
 {
     outline: none;
-    border:2px solid rgb(14, 13, 13);
+    border:2px solid rgb(13, 13, 13);
     margin-top: 5px;
     margin-bottom: 20px;
     padding: 5px;
@@ -87,7 +89,7 @@ a{
     margin-left:28px;
 }
 .arr6{
-    margin-left:40px;
+    margin-left:45px;
 }
 .arr7{
     margin-left:23px;
@@ -122,9 +124,34 @@ option{
 .advertisment{
    border:1px solid red;
    display: inline-block;
-   height: 300px;
-   width: 360px;
+   width: 420px;
+   height: 350px;
 }
+
+@media (max-width: 320px) {
+    .advertisement {
+        width: 320px;
+    }
+
+}
+
 main{
     margin-top:10px;
+}
+.at-last{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.color-it{
+    color:red;
+}
+li{
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
 }
